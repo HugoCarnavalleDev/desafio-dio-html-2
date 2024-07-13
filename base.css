@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f2f4f7ff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ACC8E5;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #ACC8E5;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #ACC8E5;
+    max-height: 154px;
+}
+.content {
+    background-color: #f2f4f7ff;
+    min-height: 300px;
+    padding: 20px;
+    text-align: left;
+}
+.footer {
+    background-color: #ACC8E5  ;
+    max-height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contato, iframe {
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.mapa {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#formulario {
+    width: 425px;
+    height: 350px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid lightgray 1px;
+    border-radius: 8px;
+    line-height: 2;
+}
+#form_content {
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+input, textarea {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border: solid lightgray 1px;
+}
+textarea {
+    height: 60px;
+}
+.botao {
+    width: 180px;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    background-color: #ACC8E5;
+    color:black;
+    border-color: white;
+}
+ul {
+    margin-left: 5px;
+}
+table {
+    box-shadow: 15px 15px 15px 4px rgba(0,0,0,0.3),0px 10px 15px -3px rgba(0,0,0,0.1);
+    border: solid 1px lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+table thead th {
+    background-color: #ACC8E5;
+    text-align: center;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #ACC8E5;
+}
+table tbody tr:hover td {
+    color: #eb4b24;
+    cursor: pointer;
+}
+.content_footer {
+    height: 150px;
+    color: #112A46;
+    text-align: center;
+}
+#icones {
+    height: 50px;
+    font-size: 0;
+    margin-top: 15px;
+}
+p, li, label, button, table {
+    color: #112A46;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
